@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Virtual Whiteboard drawing website</title>
+    <style>
+      h1 {
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div id="headerAttribute">
+        <h1>Virtual Whiteboard for drawing</h1>
+      </div>
+    </header>
+
+    <canvas id="myCanvas"></canvas>
+
+    <script src="script.js"></script>
+    <br />
+    <button id="normalButton" ; onclick="clearCanvas()">
+      Erase All
+    </button>
+
+    <button id="colorButtonBlack" ; onclick="chooseBlack()"></button>
+    <button id="colorButtonRed" ; onclick="chooseRed()"></button>
+    <button id="colorButtonGreen" ; onclick="chooseGreen()"></button>
+    <button id="colorButtonBlue" ; onclick="chooseBlue()"></button>
+    <button id="colorButtonYellow" ; onclick="chooseYellow()"></button>
+
+    <button id="EraserButton" ; onclick="eraseDrawing()"></button>
+    <button id="normalButton" ; onclick="activateGrid()">Draw Grid</button>
+    <button id="normalButton" ; onclick="activateCircle()">Draw Circle</button>
+    <label>Choose your background color:</label>
+    <select
+      id="BackgroundSelect"
+      ;
+      name="backgroundColor"
+      ;
+      onchange="changeBgc()"
+      ;
+    >
+      <option value="White">White</option>
+      <option value="Azure">Azure</option>
+      <option value="Beige">Beige</option>
+      <option value="AliceBlue">AliceBlue</option>
+      <option value="DarkSeaGreen">DarkSeaGreen</option>
+      <option value="HoneyDew">HoneyDew</option>
+      <option value="LavesnderBlush">LavenderBlush</option>
+    </select>
+    <br />
+    <label>Want more colors?</label>
+    <input type="color" id="color" />
+  </body>
+</html>

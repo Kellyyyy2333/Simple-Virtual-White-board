@@ -1,0 +1,84 @@
+#myCanvas{
+    border-width: 3px; 
+    border-style:solid;
+    width: 1300px;
+    height: 600px;
+}
+
+#headerAttribute{
+    background-color:rgb(83, 182, 215); 
+    border:solid;
+    border-color:white; 
+    text-align:center;
+    width: 1300px;
+}
+#normalButton{
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    margin: 40px
+}
+
+#colorButtonRed{
+    height: 40px;
+    width: 40px;
+    background-color:red;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#colorButtonGreen{
+    height: 40px;
+    width: 40px;
+    background-color:green;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#colorButtonBlue{
+    height: 40px;
+    width: 40px;
+    background-color:blue;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#colorButtonBlack{
+    height: 40px;
+    width: 40px;
+    background-color:black;
+    border-radius: 50%;
+    margin: 10px;
+}
+#colorButtonYellow{
+    height: 40px;
+    width: 40px;
+    background-color:yellow;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+
+#EraserButton{
+    background-image: url("https://cdn0.iconfinder.com/data/icons/painting-outline-2/64/STROKE-12-512.png");
+    margin: 40px;
+    border:none; 
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: 43px 43px;
+}
+
+#BackgroundSelect{
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    margin: 40px
+}
+
